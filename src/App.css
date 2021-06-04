@@ -10,8 +10,8 @@ body {
   font-family: "Ubuntu", sans-serif;
   min-height: 100%;
   min-width: 100%;
-  /* background-image: url("./bg4.jpg"); */
-  background-color: rgb(0, 0, 0);
+  background-image: url("./bg4.jpg");
+  /* background-color: rgb(0, 0, 0); */
   position: fixed;
   background-size: cover;
   background-position: center;
@@ -20,11 +20,11 @@ body {
   z-index: -1;
 }
 .svg-wrapper {
-  width: 320px;
+  width: 200px;
 }
 .shape {
   stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
+  stroke-dashoffset: -295;
   stroke-width: 8px;
   fill: transparent;
   stroke: #19f6e8;
