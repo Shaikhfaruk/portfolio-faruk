@@ -51,15 +51,17 @@ body {
 .LeftSide {
   display: inline-block;
 }
-.navbar .LeftSide h3 {
-  color: rgb(165, 20, 80);
+.navbar .LeftSide h3,
+.write h3 {
+  color: rgb(219, 28, 28);
   position: relative;
   display: flex;
   text-align: center;
   justify-content: center;
 }
-.navbar .LeftSide h3 span {
-  color: rgb(20, 165, 146);
+.navbar .LeftSide h3 span,
+.Typewriter__wrapper {
+  color: rgb(28, 219, 194);
 }
 
 .navbar .RightSide {
@@ -88,7 +90,7 @@ body {
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
-  top: 15px;
+  top: 25px;
 }
 .hamburger,
 .hamburger::before,
@@ -135,9 +137,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 1em;
 }
-#hamburger-toggle:checked ~ .container #navbar .LeftSide {
-  background-color: #19f6e8;
-}
+
 #hamburger-toggle:checked ~ #navlinksContainer {
   color: #fff;
   display: flex;
@@ -161,10 +161,12 @@ body {
 #typewriter {
   color: #19f6e8;
 }
-.Typewriter,
+
 .write {
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 32px;
+  position: relative;
 }

@@ -9,9 +9,9 @@ const Navbar = () => {
       <div className="navbar" id="navbar">
         <LeftSide className="LeftSide" />
         <RightSide className="RightSide" />
-        <div className="write">
-          <h3>I am</h3>
 
+        <div className="write">
+          <h3>I am..... </h3>
           <Typewriter
             options={{
               strings: [
