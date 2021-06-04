@@ -10,7 +10,7 @@ const Navbar = () => {
         <LeftSide className="LeftSide" />
         <RightSide className="RightSide" />
         <div className="write">
-          <h2>I am</h2>
+          <h3>I am</h3>
 
           <Typewriter
             options={{
