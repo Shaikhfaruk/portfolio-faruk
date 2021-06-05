@@ -10,7 +10,7 @@ const RightSide = () => {
         <label className="hamburger-wrapper" htmlFor="hamburger-toggle">
           <span className="hamburger"></span>
         </label>
-        <div id="navlinksContainer">
+        <div id="navlinksContainer" className="box">
           <NavLink
             exact
             activeClassName="active_class"
