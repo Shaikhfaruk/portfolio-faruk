@@ -2,6 +2,11 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 const TypeWriter = () => {
+  const name = {
+    MERN: "MERN",
+  }
+    
+  
   return (
     <>
       <div className="writerMain">
@@ -11,10 +16,9 @@ const TypeWriter = () => {
           <Typewriter
             options={{
               strings: [
-                "I'm Faruk Shaikh.",
-                "I'm a Web dev.",
-                "I'm a React Dev.",
-                "I'm a Figma UI/UX Designer.",
+                "My self Faruk Shaikh.",
+                `I'm ${name.MERN} Stack Dev"`,
+                "I'm a UI/UX Designer(Figma & Adobe XD).",
               ],
               autoStart: true,
               loop: true,
