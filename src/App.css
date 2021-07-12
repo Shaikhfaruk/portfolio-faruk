@@ -6,9 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-section {
-  height: 100vh;
-}
+
 body {
   font-family: "Ubuntu", sans-serif;
   min-height: 100%;
@@ -21,6 +19,18 @@ body {
   /* overflow: hidden; */
   background-image: url("./bg4.jpg");
   color: #eee;
+}
+.home_section {
+  height: 100vh;
+}
+.about_section,
+.teams_section,
+.services_section,
+.skills_section,
+.contact_section {
+  height: 100vh;
+  border: 1px solid #222;
+  backdrop-filter: grayscale(0.5) opacity(0.8);
 }
 h1 {
   color: #fff;

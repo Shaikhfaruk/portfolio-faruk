@@ -15,32 +15,32 @@ function App() {
       <div className="container">
         <Navbar />
         <Switch>
-          <section>
+          <section className="home_section">
             <Route exact path="/" component={Home} />
           </section>
         </Switch>
         <Switch>
-          <section>
+          <section className="about_section">
             <Route exact path="/about" component={About} />
           </section>
         </Switch>
         <Switch>
-          <section>
+          <section className="services_section">
             <Route exact path="/services" component={Services} />
           </section>
         </Switch>
         <Switch>
-          <section>
+          <section className="skills_section">
             <Route exact path="/skills" component={Skills} />
           </section>
         </Switch>
         <Switch>
-          <section>
+          <section className="teams_section">
             <Route exact path="/teams" component={Teams} />
           </section>
         </Switch>
         <Switch>
-          <section>
+          <section className="contact_section">
             <Route exact path="/contact" component={Contact} />
           </section>
         </Switch>
