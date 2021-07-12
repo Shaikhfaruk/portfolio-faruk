@@ -9,9 +9,11 @@ const LeftSide = () => {
             <rect className="shape" height={60} width={200} />
           </svg>
           <div className="text">
-            <h3>
-              Port<span>Folio</span>
-            </h3>
+            <a href="/" style={{ textDecoration: "none" }}>
+              <h3>
+                Port<span>Folio</span>
+              </h3>
+            </a>
           </div>
         </div>
       </div>

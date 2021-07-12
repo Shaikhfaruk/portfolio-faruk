@@ -6,6 +6,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+section {
+  height: 100vh;
+}
 body {
   font-family: "Ubuntu", sans-serif;
   min-height: 100%;
@@ -18,6 +21,12 @@ body {
   /* overflow: hidden; */
   background-image: url("./bg4.jpg");
   color: #eee;
+}
+h1 {
+  color: #fff;
+}
+.container {
+  height: 100vh;
 }
 .svg-wrapper {
   width: 200px;
@@ -137,6 +146,7 @@ body {
 }
 a {
   list-style: none;
+  text-decoration: none;
 }
 .active_class {
   color: #19f6e8;
@@ -151,6 +161,8 @@ a {
   flex-direction: column;
   margin-bottom: 0;
   color: rgb(255, 255, 255);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 #hamburger-toggle:checked ~ #leftSide h3 {
