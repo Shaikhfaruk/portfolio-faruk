@@ -1,5 +1,5 @@
 import React from "react";
-import LeftSide from "../LeftSide";
+import LeftSide from "./leftside/LeftSide";
 import RightSide from "../RightSide";
 
 const Navbar = () => {

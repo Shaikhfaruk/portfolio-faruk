@@ -1,0 +1,39 @@
+.svg-wrapper {
+  width: 200px;
+  height: 50px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -295;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  top: -48px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+.LeftSide {
+  display: inline-block;
+}
+
+.navbar .LeftSide h3 {
+  color: rgb(219, 28, 28);
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.navbar .LeftSide h3 span {
+  color: rgb(28, 219, 194);
+}
